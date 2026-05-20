@@ -1,0 +1,15 @@
+# Noir build artifacts (commit compiled circuit for Vercel — no nargo on CI)
+target/*
+!target/wordle_judge.json
+
+# Node
+node_modules/
+dist/
+.vite/
+.cache/
+
+# OS
+.DS_Store
+
+# Hosted proof bundles (generated at runtime)
+webapp/.proof-store/

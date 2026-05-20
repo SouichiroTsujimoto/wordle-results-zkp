@@ -1,0 +1,24 @@
+{
+  "name": "wordle-zkp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "hash:compile": "nargo compile --silence-warnings --package hash_preimage",
+    "hash:run": "tsx scripts/hash_preimage.ts",
+    "wordle:compile": "nargo compile --silence-warnings --package wordle_judge",
+    "wordle:test": "nargo test --package wordle_judge",
+    "dict:build": "tsx scripts/build_dictionary.ts",
+    "webapp:dev": "npm --prefix webapp run dev",
+    "webapp:build": "npm --prefix webapp run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@aztec/bb.js": "5.0.0-nightly.20260324",
+    "@noir-lang/noir_js": "1.0.0-beta.21"
+  }
+}

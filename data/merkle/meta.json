@@ -1,0 +1,9 @@
+{
+  "treeHeight": 14,
+  "numLeaves": 16384,
+  "numWords": 14855,
+  "root": "0xf8b3c53c77682efa7abefa14985399da8579c59e34e9e7217dc7909f09a612b",
+  "hash": "poseidon2",
+  "leaf": "poseidon2([l0,l1,l2,l3,l4], 5)",
+  "node": "poseidon2([left, right], 2)"
+}

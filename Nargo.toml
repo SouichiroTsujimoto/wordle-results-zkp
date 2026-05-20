@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "circuits/hello",
+    "circuits/hash_preimage",
+    "circuits/wordle_judge",
+]

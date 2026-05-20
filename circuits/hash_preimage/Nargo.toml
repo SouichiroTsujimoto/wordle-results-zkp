@@ -1,0 +1,6 @@
+[package]
+name = "hash_preimage"
+type = "bin"
+authors = [""]
+
+[dependencies]
