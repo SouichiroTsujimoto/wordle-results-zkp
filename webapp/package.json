@@ -10,6 +10,7 @@
     "prebuild": "npm run sync-circuits && npm run sync-dictionary && npm run sync-tesseract",
     "dev": "next dev --webpack",
     "build": "next build --webpack",
+    "postbuild": "node scripts/vercel-postbuild.mjs",
     "start": "next start",
     "lint": "eslint"
   },

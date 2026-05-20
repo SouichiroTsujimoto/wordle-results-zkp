@@ -13,3 +13,6 @@ dist/
 
 # Hosted proof bundles (generated at runtime)
 webapp/.proof-store/
+
+# Copied by webapp postbuild on Vercel (Root Directory workaround)
+/.next/
