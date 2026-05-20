@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Silence "multiple lockfiles" warning — pin tracing to the webapp directory.
+  // Pin file tracing to the project root (monorepo-free layout).
   outputFileTracingRoot: process.cwd(),
   // bb.js & noir_js ship CommonJS, WASM, and Node `worker_threads` code paths.
   // Letting the bundler trace them on the server side fork-bombs the dev server
